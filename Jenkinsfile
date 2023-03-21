@@ -1,9 +1,11 @@
-pipeline{ 
-stages {
+pipeline {
+  agent any
+  stages {
     stage('') {
       steps {
-        sh 'date '
+        sh 'sh « date »'
       }
     }
+
   }
 }
